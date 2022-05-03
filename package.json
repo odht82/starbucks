@@ -1,5 +1,5 @@
 {
-  "name": "react-tailwind-table",
+  "name": "Starbucks",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -47,8 +47,8 @@
     "prettier-plugin-tailwindcss": "^0.1.10",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4"
   },
-  "description": "Source code for my tutorial on how to build customizable table component with React Table and Tailwind CSS.",
+  "description": "This responsive dashboard app created with React.js React-table and TailwindCSS.",
   "main": "craco.config.js",
-  "author": "",
+  "author": "Md. Obaydul Hoque",
   "license": "ISC"
 }
