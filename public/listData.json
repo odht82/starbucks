@@ -1,0 +1,202 @@
+[
+    {
+        "key": "01",
+        "time": "11 Nov 2021",
+        "title": "Hammer",
+        "details": "This is a hammer to do work with",
+        "status": "Alright",
+        "stockQuantity": "300/200",
+        "unitPrice": "10",
+        "amount": "2000"
+    },
+    {
+        "key": "02",
+        "time": "10 Nov 2021",
+        "title": "Hammer",
+        "details": "This is a Screw to do work with",
+        "status": "Alright",
+        "stockQuantity": "230/122",
+        "unitPrice": "10",
+        "amount": "1220"
+    },
+    {
+        "key": "03",
+        "time": "6 Nov 2021",
+        "title": "Hammer",
+        "details": "Wood plan will be used to do woodworks, duh",
+        "status": "In Progress",
+        "stockQuantity": "300/100",
+        "unitPrice": "1.5",
+        "amount": "150"
+    },
+    {
+        "key": "04",
+        "time": "28 Oct 2021",
+        "title": "Hammer",
+        "details": "-",
+        "status": "Out Of Stock",
+        "stockQuantity": "200/0",
+        "unitPrice": "10",
+        "amount": "0"
+    },
+    {
+        "key": "05",
+        "time": "22 Oct 2021",
+        "title": "Hammer",
+        "details": "-",
+        "status": "Out Of Stock",
+        "stockQuantity": "200/0",
+        "unitPrice": "10",
+        "amount": "0"
+    },
+    {
+        "key": "06",
+        "time": "16 Oct 2021",
+        "title": "Hammer",
+        "details": "-",
+        "status": "Out Of Stock",
+        "stockQuantity": "200/0",
+        "unitPrice": "10",
+        "amount": "0"
+    },
+    {
+        "key": "07",
+        "time": "9 Oct 2021",
+        "title": "Hammer",
+        "details": "This is a hammer to do work with",
+        "status": "Alright",
+        "stockQuantity": "300/200",
+        "unitPrice": "10",
+        "amount": "2000"
+    },
+    {
+        "key": "08",
+        "time": "5 Oct 2021",
+        "title": "Hammer",
+        "details": "This is a hammer to do work with",
+        "status": "Alright",
+        "stockQuantity": "300/200",
+        "unitPrice": "10",
+        "amount": "2000"
+    },
+    {
+        "key": "09",
+        "time": "1 Oct 2021",
+        "title": "Hammer",
+        "details": "This is a hammer to do work with",
+        "status": "Alright",
+        "stockQuantity": "300/200",
+        "unitPrice": "10",
+        "amount": "2000"
+    },
+    {
+        "key": "10",
+        "time": "23 Sep 2021",
+        "title": "Hammer",
+        "details": "This is a hammer to do work with",
+        "status": "Alright",
+        "stockQuantity": "300/200",
+        "unitPrice": "10",
+        "amount": "2000"
+    },
+    {
+        "key": "11",
+        "time": "21 Sep 2021",
+        "title": "Hammer",
+        "details": "This is a hammer to do work with",
+        "status": "Alright",
+        "stockQuantity": "300/200",
+        "unitPrice": "10",
+        "amount": "2000"
+    },
+    {
+        "key": "12",
+        "time": "16 Sep 2021",
+        "title": "Hammer",
+        "details": "This is a hammer to do work with",
+        "status": "Alright",
+        "stockQuantity": "300/200",
+        "unitPrice": "10",
+        "amount": "2000"
+    },
+    {
+        "key": "13",
+        "time": "13 Sep 2021",
+        "title": "Hammer",
+        "details": "This is a hammer to do work with",
+        "status": "Alright",
+        "stockQuantity": "300/200",
+        "unitPrice": "10",
+        "amount": "2000"
+    },
+    {
+        "key": "14",
+        "time": "5 Sep 2021",
+        "title": "Hammer",
+        "details": "This is a hammer to do work with",
+        "status": "Alright",
+        "stockQuantity": "300/200",
+        "unitPrice": "10",
+        "amount": "2000"
+    },
+    {
+        "key": "15",
+        "time": "1 Sep 2021",
+        "title": "Hammer",
+        "details": "This is a hammer to do work with",
+        "status": "Alright",
+        "stockQuantity": "300/200",
+        "unitPrice": "10",
+        "amount": "2000"
+    },
+    {
+        "key": "16",
+        "time": "28 Aug 2021",
+        "title": "Hammer",
+        "details": "This is a hammer to do work with",
+        "status": "Alright",
+        "stockQuantity": "300/200",
+        "unitPrice": "10",
+        "amount": "2000"
+    },
+    {
+        "key": "17",
+        "time": "25 Aug 2021",
+        "title": "Hammer",
+        "details": "This is a hammer to do work with",
+        "status": "Alright",
+        "stockQuantity": "300/200",
+        "unitPrice": "10",
+        "amount": "2000"
+    },
+    {
+        "key": "18",
+        "time": "21 Aug 2021",
+        "title": "Hammer",
+        "details": "This is a hammer to do work with",
+        "status": "Alright",
+        "stockQuantity": "300/200",
+        "unitPrice": "10",
+        "amount": "2000"
+    },
+    {
+        "key": "19",
+        "time": "18 Aug 2021",
+        "title": "Hammer",
+        "details": "This is a hammer to do work with",
+        "status": "Alright",
+        "stockQuantity": "300/200",
+        "unitPrice": "10",
+        "amount": "2000"
+    },
+    {
+        "key": "20",
+        "time": "12 Aug 2021",
+        "title": "Hammer",
+        "details": "This is a hammer to do work with",
+        "status": "Alright",
+        "stockQuantity": "300/200",
+        "unitPrice": "10",
+        "amount": "2000"
+    }
+]
