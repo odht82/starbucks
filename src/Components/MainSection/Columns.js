@@ -1,5 +1,6 @@
 import { StatusPill, Select, QuantityPill } from "./Table/TableElements/ElementProcessor";
 
+// ===desktop Component in starting of row layout=== 
 export const columns = [
     {
         Header: Select,
@@ -61,6 +62,7 @@ export const columns = [
         align: 'flex-end',
     },
 ]
+// ===tablet Component in starting of row layout=== 
 export const tabletColumns = [
     {
         Header: Select,
@@ -105,6 +107,7 @@ export const tabletColumns = [
         align: 'flex-end',
     },
 ]
+// ===mobile Columns of table=== 
 export const mobileColumns = [
     {
         Header: "Title",

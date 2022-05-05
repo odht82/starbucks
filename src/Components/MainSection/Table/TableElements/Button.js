@@ -1,6 +1,7 @@
 import React from "react";
 import { classNames } from "./Utils";
 
+// ===Go to page buttons=== 
 export function Button({ children, className, ...rest }) {
     return (
         <button
@@ -17,6 +18,7 @@ export function Button({ children, className, ...rest }) {
     );
 }
 
+// ===Next and previous page buttons=== 
 export function PageButton({ children, className, ...rest }) {
     return (
         <button

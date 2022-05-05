@@ -1,3 +1,4 @@
+// Table Status Column customized rendering function
 export function StatusPill({ value }) {
     const status = value ? value : "unknown";
 
@@ -17,6 +18,7 @@ export function StatusPill({ value }) {
     );
 }
 
+// Table Quantity Column customized rendering function
 export function QuantityPill({ value }) {
     const stockQuantity = value ? value : "unknown";
     const stock = stockQuantity.split('/')[0]
@@ -29,7 +31,7 @@ export function QuantityPill({ value }) {
     );
 }
 
-
+// Table row Checkbox Column customized rendering function
 export function Select({ value }) {
     return (
         <td>

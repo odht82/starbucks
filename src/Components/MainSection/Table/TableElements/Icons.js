@@ -1,3 +1,4 @@
+// Table Column sort Icon
 export function SortIcon({ className }) {
     return (
         <svg
@@ -19,6 +20,7 @@ export function SortIcon({ className }) {
     );
 }
 
+// Table Up Column sort Icon
 export function SortUpIcon({ className }) {
     return (
         <svg
@@ -36,6 +38,7 @@ export function SortUpIcon({ className }) {
     );
 }
 
+// Table Column Down sort Icon
 export function SortDownIcon({ className }) {
     return (
         <svg

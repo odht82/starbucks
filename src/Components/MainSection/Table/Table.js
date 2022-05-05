@@ -12,6 +12,8 @@ import { PageButton } from "./TableElements/Button";
 import { SortIcon, SortUpIcon, SortDownIcon } from "./TableElements/Icons";
 import { IoSearchOutline } from "react-icons/io5";
 
+
+// Table search bar rendering function
 export function GlobalFilter({
     preGlobalFilteredRows,
     globalFilter,
@@ -25,9 +27,8 @@ export function GlobalFilter({
     return (
         <div className="mx-4 my-6">
             <div className="h-10 rounded-lg bg-skin-neutral-2 w-full
-      md:w-3/6 
-      lg:w-2/6
-      ">
+                md:w-3/6 
+                lg:w-2/6">
                 <label className="relative block">
                     <span className="absolute inset-y-0 left-0 flex items-center pl-2">
                         <IoSearchOutline className="h-5 w-5 text-neutral-8 focus:text-primary-2" />
@@ -49,7 +50,7 @@ export function GlobalFilter({
     );
 }
 
-
+// Table rendering function takes the column and data from props
 function Table({ columns, data }) {
     const {
         getTableProps,
@@ -84,17 +85,19 @@ function Table({ columns, data }) {
     return (
         <>
             <div className="flex w-full items-center justify-start pb-28 p-2
-          md:p-6
-          lg:p-6
-      ">
+                md:p-6
+                lg:p-6">
                 <div className="h-full w-full rounded bg-white shadow-lst">
+                    {/* ===Table Search bar===  */}
                     <GlobalFilter
                         preGlobalFilteredRows={preGlobalFilteredRows}
                         globalFilter={state.globalFilter}
                         setGlobalFilter={setGlobalFilter}
                     />
+                    {/* ===Table===  */}
                     <div className="mt-6 h-full">
                         <table {...getTableProps()} className="w-full table-auto">
+                            {/* ===Table Head===  */}
                             <thead>
                                 {headerGroups.map((headerGroup) => (
                                     <tr
@@ -155,6 +158,7 @@ function Table({ columns, data }) {
                                     </tr>
                                 ))}
                             </thead>
+                            {/* ===Table Body===  */}
                             <tbody {...getTableBodyProps()} className="bg-white">
                                 {page.map((row, i) => {
                                     // new
@@ -187,13 +191,14 @@ function Table({ columns, data }) {
                                 })}
                             </tbody>
                         </table>
+                        {/* ===Table Head===  */}
                         <div className="px-4 bg-white rounded">
                             <div className="w-full flex items-center justify-between pt-6 pb-10">
                                 <div className="h-10 w-full flex items-center justify-between">
+                                    {/* ===Table row amount selection dropdown Button===  */}
                                     <div className="gap-x-2 hidden
-                        md:flex md:items-baseline md:justify-between
-                        lg:flex lg:items-baseline lg:justify-between
-                  ">
+                                        md:flex md:items-baseline md:justify-between
+                                        lg:flex lg:items-baseline lg:justify-between">
                                         <label>
                                             <span className="sr-only">Items Per Page</span>
                                             <select
@@ -211,8 +216,10 @@ function Table({ columns, data }) {
                                             </select>
                                         </label>
                                     </div>
+                                    {/* ===Table pagination Section===  */}
                                     <div className="w-full">
                                         <div className="flex justify-between w-full items-baseline gap-x-2 md:justify-end">
+                                            {/* ===Table Go to page dropdown Button===  */}
                                             <label>
                                                 <select
                                                     className="shadow-sm block w-48 h-10 rounded-md bg-white px-2 py-2 text-md font-medium text-neutral-8 hover:bg-neutral-1 border-neutral-5 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
@@ -235,6 +242,7 @@ function Table({ columns, data }) {
                                                     ))}
                                                 </select>
                                             </label>
+                                            {/* ===Table Next page and previous page Buttons===  */}
                                             <nav
                                                 className="shadow-sm relative z-0 inline-flex -space-x-px rounded-md"
                                                 aria-label="Pagination"

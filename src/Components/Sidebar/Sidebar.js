@@ -13,64 +13,66 @@ const Sidebar = () => {
         >
             <div
                 className="w-full h-full flex bg-white justify-between items-center
-          md:bg-skin-neutral-2 md:flex md:flex-col md:justify-start md:static md:w-24
-          lg:w-full"
+                md:bg-skin-neutral-2 md:flex md:flex-col md:justify-start md:static md:w-24 lg:w-full"
             >
+                {/* ===Button Dashboard===  */}
                 <button
-                    className="my-2 flex h-10 items-center rounded text-left text-sm font-medium text-neutral hover:bg-white hover:text-primary 
-            w-8 p-0 drop-shadow-none
-            md:w-10 md:p-2 md:hover:shadow-btn
-            lg:w-full lg:p-2 lg:hover:shadow-btn
-            "
                     aria-label="Dashboard navigation button"
+                    className="my-2 flex h-10 items-center rounded text-left text-sm font-medium text-neutral hover:bg-white hover:text-primary 
+                    w-8 p-0 drop-shadow-none
+                    md:w-10 md:p-2 md:hover:shadow-btn
+                    lg:w-full lg:p-2 lg:hover:shadow-btn"
                 >
+                    {/* ===Button Dashboard Icon===  */}
                     <span className="py-[2px]">
-                        <RiHome2Line className="h-6 w-6
-              lg:mx-1
-              " />
+                        <RiHome2Line className="h-6 w-6 lg:mx-1" />
                     </span>
+                    {/* ===Button Dashboard label===  */}
                     <p className="mx-1 hidden md:hidden lg:inline ">Dashboard</p>
                 </button>
+                {/* ===Button Inventory Active===  */}
                 <button
-                    className="my-2 flex h-10 items-center rounded text-left text-sm font-medium bg-white text-primary 
-            w-8 p-0 drop-shadow-none
-            md:w-10 md:p-2 md:shadow-btn
-            lg:w-full lg:p-2 lg:shadow-btn
-            "
                     aria-label="Inventory navigation button"
+                    className="my-2 flex h-10 items-center rounded text-left text-sm font-medium bg-white text-primary 
+                    w-8 p-0 drop-shadow-none
+                    md:w-10 md:p-2 md:shadow-btn
+                    lg:w-full lg:p-2 lg:shadow-btn"
                 >
+                    {/* ===Button Inventory Icon===  */}
                     <span className="py-[2px]">
-                        <IoDocumentTextOutline className=" h-6 w-6
-              lg:mx-1" />
+                        <IoDocumentTextOutline className=" h-6 w-6 lg:mx-1" />
                     </span>
+                    {/* ===Button Inventory label===  */}
                     <p className="mx-1 hidden md:hidden lg:inline">Inventory</p>
                 </button>
+                {/* ===Button Documents===  */}
                 <button
-                    className="my-2 flex h-10 items-center rounded text-left text-sm font-medium text-neutral hover:bg-white hover:text-primary 
-            w-8 p-0 drop-shadow-none
-            md:w-10 md:p-2 md:hover:shadow-btn
-            lg:w-full lg:p-2 lg:hover:shadow-btn
-            "
                     aria-label="Documents navigation button"
+                    className="my-2 flex h-10 items-center rounded text-left text-sm font-medium text-neutral hover:bg-white hover:text-primary 
+                    w-8 p-0 drop-shadow-none
+                    md:w-10 md:p-2 md:hover:shadow-btn
+                    lg:w-full lg:p-2 lg:hover:shadow-btn"
                 >
+                    {/* ===Button Documents Icon===  */}
                     <span className="py-[2px]">
-                        <VscFileSubmodule className="h-6 w-6
-              lg:mx-1" />
+                        <VscFileSubmodule className="h-6 w-6 lg:mx-1" />
                     </span>
+                    {/* ===Button Documents label===  */}
                     <p className="mx-1 hidden md:hidden lg:inline">Documents</p>
                 </button>
+                {/* ===Button Settings===  */}
                 <button
-                    className="my-2 flex h-10 items-center rounded text-left text-sm font-medium text-neutral hover:bg-white hover:text-primary 
-            w-8 p-0 drop-shadow-none
-            md:w-10 md:p-2 md:hover:shadow-btn
-            lg:w-full lg:p-2 lg:hover:shadow-btn
-            "
                     aria-label="Settings navigation button"
+                    className="my-2 flex h-10 items-center rounded text-left text-sm font-medium text-neutral hover:bg-white hover:text-primary 
+                    w-8 p-0 drop-shadow-none
+                    md:w-10 md:p-2 md:hover:shadow-btn
+                    lg:w-full lg:p-2 lg:hover:shadow-btn"
                 >
+                    {/* ===Button Settings Icon===  */}
                     <span className="py-[2px]">
-                        <IoSettingsOutline className="h-6 w-6
-              lg:mx-1" />
+                        <IoSettingsOutline className="h-6 w-6 lg:mx-1" />
                     </span>
+                    {/* ===Button Settings label===  */}
                     <p className="mx-1 hidden md:hidden lg:inline">Settings</p>
                 </button>
             </div>
