@@ -7,4 +7,4 @@ Visit The [Live Website](https://starbucks-algo.netlify.app/).
 ### `Figma To React.js`
 
 This design transformed Figma Ui design to react app.
-[Figma Design](https://www.figma.com/file/EyOu8FPZhy2fzqG9LldcdT/FE-Test)
+[Figma Design](https://www.figma.com/file/YKcmp4J9wQroodBXkuAiv5/Starbucks-Challenge?node-id=0%3A1)
